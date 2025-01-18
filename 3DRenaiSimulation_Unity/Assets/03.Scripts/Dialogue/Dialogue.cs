@@ -2,23 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//ÀÎ½ºÆåÅÍÃ¢¿¡¼­ ¼öÁ¤°¡´É
+//ì¸ìŠ¤í™í„°ì°½ì—ì„œ ìˆ˜ì •ê°€ëŠ¥ 
 [System.Serializable]
 public class Dialgoue
 {
 
-    [Tooltip("Ä³¸¯ÅÍ ÀÌ¸§")]
+    [Tooltip("ìºë¦­í„° ì´ë¦„")]
     public string name;
 
-    [Tooltip("´ë»ç ³»¿ë")]
+    [Tooltip("ëŒ€ì‚¬ ë‚´ìš©")]
     public string[] contexts;
 
-    [Tooltip("ÀÌº¥Æ® ¹øÈ£")]
+    [Tooltip("ì´ë²¤íŠ¸ ë²ˆí˜¸")]
     public string[] number;
 
-    [Tooltip("½ºÅµ¶óÀÎ")]
+    [Tooltip("ìŠ¤í‚µë¼ì¸")]
     public string[] skipnum;
-    //[Tooltip("ÀÌº¥Æ®¹øÈ£")]
+    //[Tooltip("ì´ë²¤íŠ¸ë²ˆí˜¸")]
     //public string[] number;
 
 }
@@ -27,11 +27,11 @@ public class Dialgoue
 public class DialgoueEvent
 {
 
-    //ÀÌº¥Æ® ÀÌ¸§
+    //ì´ë²¤íŠ¸ ì´ë¦„
     public string name;
-    //xÁÙºÎÅÍ yÁÙ±îÁö¸¦ °¡Á®¿È
+    //xì¤„ë¶€í„° yì¤„ê¹Œì§€ë¥¼ ê°€ì ¸ì˜´
     public Vector2 line;
-    //´ëÈ­ ¹è¿­ »ı¼º
+    //ëŒ€í™” ë°°ì—´ ìƒì„±
     public Dialgoue[] dialgoues;
     
 }
