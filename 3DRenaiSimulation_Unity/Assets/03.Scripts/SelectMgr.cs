@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class SelectMgr : MonoBehaviour
 {
     public static SelectMgr Instance;
-    private int currentSelectIndex = 0;
+    public int currentSelectIndex = 0;
+    bool isFinished = false;
 
     [Header("UI Elements")]
     public GameObject ChatGameObject;
@@ -45,7 +46,7 @@ public class SelectMgr : MonoBehaviour
     public string selectCSVFile_1;  // 선택 결과 CSV 파일명
     public string selectCSVFile_2;  // 선택 결과 CSV 파일명
 
-    private List<Dictionary<string, object>> selectData;
+    public List<Dictionary<string, object>> selectData;
     private Dictionary<string, List<Dictionary<string, object>>> cachedCSVData = new Dictionary<string, List<Dictionary<string, object>>>();
 
     [Header("Select Status")]
@@ -71,11 +72,13 @@ public class SelectMgr : MonoBehaviour
     {
         if (isSelectActive==true && Input.GetMouseButtonDown(0))
         {
-            DisplayNextText();        }
+            DisplayNextText();
+        }
     }
 
     void Start()
     {
+        isFinished = false;
         // 초기에 CSV 데이터를 캐싱
         CacheCSVData(selectCSVFile_1);
         CacheCSVData(selectCSVFile_2);
@@ -113,7 +116,6 @@ public class SelectMgr : MonoBehaviour
         DisplayNextText();
     }
 
-    // 이벤트 이름에 맞는 CSV 데이터를 로드하고 이벤트 시작
     public void StartSelect(string selectName)
     {
         isSelectActive = true;
@@ -136,6 +138,7 @@ public class SelectMgr : MonoBehaviour
         isSelectActive = false;
         if (currentSelectIndex + 1 >= selectData.Count) return;
 
+        selectText.text = selectData[currentSelectIndex]["선택지제목"].ToString();
         optionBtnText1.text = selectData[currentSelectIndex]["선택지 스크립트"].ToString();
         optionBtnText2.text = selectData[currentSelectIndex + 1]["선택지 스크립트"].ToString();
 
@@ -196,20 +199,23 @@ public class SelectMgr : MonoBehaviour
         else
         {
             int likePoint = int.Parse(triggerName);
-            noticeText.text = "호감도가" + likePoint.ToString() + "이 되었습니다. \n 전체 호감도: "+ (GlobalData.g_LikePoint+likePoint).ToString();
+            GlobalData.g_LikePoint += likePoint;
+            noticeText.text = "호감도가" + likePoint.ToString() + "이 되었습니다. \n 전체 호감도: "+ (GlobalData.g_LikePoint).ToString();
             
         }
         
     }
 
-    void EndSelect()
+    public void EndSelect()
     {
         isSelectActive = false;
         selectPanel.SetActive(false);
         Debug.Log("선택문 종료");
         noticePanel.SetActive(true);
         noticeButton.onClick.AddListener(noticeBtnClick);
-       
+        isFinished = true;
+        OnEventCompleted?.Invoke();
+
     }
 
     void noticeBtnClick()

@@ -18,6 +18,7 @@ public class ChatMgr : MonoBehaviour
     public Text nameText;
 
     [Header("Animator")]
+    public GameObject vroidModel;
     public Animator characterAnimator; // 캐릭터 애니메이션을 담당하는 Animator
 
     [Header("CSV Reader")]
@@ -39,6 +40,9 @@ public class ChatMgr : MonoBehaviour
     void Start()
     {
         chatData = CSVReader.Read(csv_FileName);
+        nameText.text = chatData[ScriptCount].ContainsKey("캐릭터 이름") ? chatData[ScriptCount]["캐릭터 이름"].ToString() : ""; 
+        chatText.text = chatData[ScriptCount].ContainsKey("대사 (스크립트)") ? chatData[ScriptCount]["대사 (스크립트)"].ToString() : ""; 
+
         if (chatData == null || chatData.Count == 0)
         {
             Debug.LogError("CSV 파일을 읽을 수 없습니다.");
@@ -72,14 +76,14 @@ public class ChatMgr : MonoBehaviour
 
         var row = chatData[ScriptCount];
 
+        nameText.text = row["캐릭터 이름"].ToString();
+        chatText.text = row["대사 (스크립트)"].ToString();
+
         //캐릭터이름이 null인 경우
         if (row["캐릭터 이름"] == null)
         {
             nameText.text = "";
         }
-
-        nameText.text = row["캐릭터 이름"].ToString();
-        chatText.text = row["대사 (스크립트)"].ToString();  
 
         string eventName = row.ContainsKey("이벤트") ? row["이벤트"].ToString() : "";
         // 이벤트 시작 시 대화 멈춤
@@ -87,6 +91,13 @@ public class ChatMgr : MonoBehaviour
         {
             StartEvent(eventName);
             return; 
+        }
+
+        string appearName = row.ContainsKey("존재") ? row["존재"].ToString() : "";
+        
+        if (!string.IsNullOrEmpty(appearName))
+        {
+            vroidModel.SetActive(false);
         }
 
         string animationTrigger = row.ContainsKey("애니메이션") ? row["애니메이션"].ToString() : "";

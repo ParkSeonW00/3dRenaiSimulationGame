@@ -6,21 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01.Scenes/LogoScene.unity
+    path: Assets/01.Scenes/01. LogoScene.unity
     guid: 754644113089cd94485f2263b2ac9f29
   - enabled: 1
-    path: Assets/01.Scenes/Scene1.unity
+    path: Assets/01.Scenes/02. Scene1.unity
     guid: a4ce0e7457382fd47a842ccc2c2c656f
   - enabled: 1
-    path: Assets/01.Scenes/Scene2.unity
+    path: Assets/01.Scenes/03. Scene2.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/01.Scenes/Scene3.unity
+    path: Assets/01.Scenes/04. Scene3.unity
     guid: 2d3c198ba3c10164b91b9551d4990e7a
   - enabled: 1
-    path: Assets/01.Scenes/Scene4.unity
+    path: Assets/01.Scenes/05. Scene4.unity
     guid: 3097481b102229b48bd3c6a640c10492
   - enabled: 1
-    path: Assets/01.Scenes/Scene5.unity
-    guid: 7f0b47e56e4804b40ae15739015f16e1
+    path: Assets/01.Scenes/06. Scene5.unity
+    guid: be705d24901832444995c34e2a2b86bf
+  - enabled: 1
+    path: Assets/01.Scenes/07. Scene6.unity
+    guid: 97fa5be6233efcf49a4aa359908b230f
+  - enabled: 1
+    path: Assets/01.Scenes/08. Scene7.unity
+    guid: c3eab15705712f4428cbf037b03725b0
+  - enabled: 1
+    path: Assets/01.Scenes/09-1. EndingHappyScene.unity
+    guid: 8c3e3ccb6c6952444b7626dddff5ae6b
+  - enabled: 1
+    path: Assets/01.Scenes/09-2. EndingSadScene.unity
+    guid: 8d87a77a465f1174983316be37a22889
+  - enabled: 1
+    path: Assets/01.Scenes/10. CreditScene.unity
+    guid: d5eace20ffd54ab4e81ec378c8aebfc0
   m_configObjects: {}

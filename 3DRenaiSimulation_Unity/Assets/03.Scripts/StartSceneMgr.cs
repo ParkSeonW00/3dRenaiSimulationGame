@@ -18,7 +18,7 @@ public class StartSceneMgr : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("Scene1");
+            SceneManager.LoadScene("02. Scene1");
         }
     }
 }

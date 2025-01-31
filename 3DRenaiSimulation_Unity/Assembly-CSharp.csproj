@@ -55,9 +55,11 @@
     <UnityVersion>2022.3.47f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\03.Scripts\CreditMgr.cs" />
     <Compile Include="Assets\03.Scripts\EventMgr.cs" />
     <Compile Include="Assets\03.Scripts\ChatMgr.cs" />
     <Compile Include="Assets\03.Scripts\StartSceneMgr.cs" />
+    <Compile Include="Assets\03.Scripts\EndingMgr.cs" />
     <Compile Include="Assets\03.Scripts\EditorModeMemoryMgr.cs" />
     <Compile Include="Assets\03.Scripts\SelectMgr.cs" />
     <Compile Include="Assets\03.Scripts\CSVReader.cs" />
