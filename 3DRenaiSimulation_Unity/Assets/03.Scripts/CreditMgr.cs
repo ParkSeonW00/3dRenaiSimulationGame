@@ -6,7 +6,7 @@ using UnityEngine;
 public class CreditMgr : MonoBehaviour
 {
     public Text creditsText;          
-    public float scrollSpeed = 200f;    
+    public float scrollSpeed = 500f;    
     public RectTransform CreditViewport;
     public GameObject ScrollView;
     float endPositionY = 1000f;

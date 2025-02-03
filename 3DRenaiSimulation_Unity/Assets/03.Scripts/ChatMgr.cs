@@ -19,7 +19,7 @@ public class ChatMgr : MonoBehaviour
 
     [Header("Animator")]
     public GameObject vroidModel;
-    public Animator characterAnimator; // 캐릭터 애니메이션을 담당하는 Animator
+    public Animator characterAnimator; 
 
     [Header("CSV Reader")]
     public string csv_FileName;

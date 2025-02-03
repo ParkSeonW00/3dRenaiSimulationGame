@@ -16,12 +16,12 @@ public class EndingMgr : MonoBehaviour
         if (GlobalData.g_LikePoint >= 50)
         {
             Debug.Log("해피엔딩시작");
-            SceneManager.LoadScene("EndingHappyScene");
+            SceneManager.LoadScene("09-1. EndingHappyScene");
         }
         else
         {
             Debug.Log("새드엔딩시작");
-            SceneManager.LoadScene("EndingSadScene");
+            SceneManager.LoadScene("09-2. EndingSadScene");
         }
     }
 }

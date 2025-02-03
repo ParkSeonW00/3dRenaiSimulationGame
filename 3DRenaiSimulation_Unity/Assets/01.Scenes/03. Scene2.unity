@@ -162,7 +162,7 @@ MonoBehaviour:
   csv_FileName: Scene2_csv
   fadeAnimator: {fileID: 1142997248}
   fadeImage: {fileID: 1142997249}
-  nextScene: Scene3
+  nextScene: 04. Scene3
   currentState: 0
 --- !u!4 &33097891
 Transform:
