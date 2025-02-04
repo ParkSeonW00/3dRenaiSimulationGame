@@ -7,7 +7,7 @@
 
 
 ### 1.StartScene
-![image](https://github.com/user-attachments/assets/1187a668-a89a-4069-a3df-8b3b968e0149)
+![image](https://github.com/user-attachments/assets/81ecb7c1-750d-4134-a1e7-f584d2e12721)
 
 ### 2.ChatScene
 ![image](https://github.com/user-attachments/assets/53a46399-79e9-4705-b745-65c8198d3ba8)
