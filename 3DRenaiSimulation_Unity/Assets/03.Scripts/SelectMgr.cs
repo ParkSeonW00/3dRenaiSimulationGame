@@ -74,6 +74,11 @@ public class SelectMgr : MonoBehaviour
         {
             DisplayNextText();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void Start()

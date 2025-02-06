@@ -52,6 +52,11 @@ public class EventMgr : MonoBehaviour
         {
             ShowEventDialogue();  // 클릭 시 대사를 넘기도록 추가
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void Start()

@@ -20,6 +20,11 @@ public class CreditMgr : MonoBehaviour
             ScrollView.SetActive(false);
             GameExit();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameExit();
+        }
     }
     public void GameExit()
     {

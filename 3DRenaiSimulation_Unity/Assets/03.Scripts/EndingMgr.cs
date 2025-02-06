@@ -11,6 +11,16 @@ public class EndingMgr : MonoBehaviour
         SelectMgr.Instance.OnEventCompleted += LikePointMgr;
     }
 
+    void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+    }
+
     public void LikePointMgr()
     {
         if (GlobalData.g_LikePoint >= 50)

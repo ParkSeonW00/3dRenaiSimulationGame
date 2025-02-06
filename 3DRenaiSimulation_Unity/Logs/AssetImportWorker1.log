@@ -15,7 +15,7 @@ D:/Unity/3dRenaiSimulationGame/3DRenaiSimulation_Unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55384
+51659
 Successfully changed project path to: D:/Unity/3dRenaiSimulationGame/3DRenaiSimulation_Unity
 D:/Unity/3dRenaiSimulationGame/3DRenaiSimulation_Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ D:/Unity/3dRenaiSimulationGame/3DRenaiSimulation_Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31076]  Target information:
+Player connection [28616]  Target information:
 
-Player connection [31076]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 966174038 [EditorId] 966174038 [Version] 1048832 [Id] WindowsEditor(7,ParkSeonWoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28616]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1466512600 [EditorId] 1466512600 [Version] 1048832 [Id] WindowsEditor(7,ParkSeonWoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31076]  * "[IP] 192.168.11.3 [Port] 0 [Flags] 2 [Guid] 966174038 [EditorId] 966174038 [Version] 1048832 [Id] WindowsEditor(7,ParkSeonWoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28616]  * "[IP] 10.235.132.66 [Port] 0 [Flags] 2 [Guid] 1466512600 [EditorId] 1466512600 [Version] 1048832 [Id] WindowsEditor(7,ParkSeonWoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31076] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31076] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28616] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28616] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 33.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
@@ -66,52 +66,52 @@ Initialize engine version: 2022.3.47f1 (88c277b85d21)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Microsoft Basic Render Driver (ID=0x8c)
-    Vendor:   Microsoft
-    VRAM:     8131 MB
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   27.21.14.6231
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.026365 seconds.
-- Loaded All Assemblies, in  0.944 seconds
+Registered in 0.032683 seconds.
+- Loaded All Assemblies, in  0.827 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.512 seconds
-Domain Reload Profiling: 1449ms
-	BeginReloadAssembly (367ms)
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1513ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (158ms)
-	LoadAllAssembliesAndSetupDomain (301ms)
-		LoadAssemblies (362ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (295ms)
-			TypeCache.Refresh (293ms)
-				TypeCache.ScanAssembly (271ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (364ms)
+				TypeCache.ScanAssembly (327ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (512ms)
+	FinalizeReload (700ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
+		SetupLoadedEditorAssemblies (599ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (285ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,55 +120,54 @@ Domain Reload Profiling: 1449ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.714 seconds
+- Loaded All Assemblies, in  1.608 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.392 seconds
-Domain Reload Profiling: 7094ms
-	BeginReloadAssembly (309ms)
+- Finished resetting the current domain, in  1.661 seconds
+Domain Reload Profiling: 3256ms
+	BeginReloadAssembly (328ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (1207ms)
-		LoadAssemblies (952ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (1061ms)
+		LoadAssemblies (738ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (459ms)
-			TypeCache.Refresh (403ms)
-				TypeCache.ScanAssembly (362ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (5392ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (414ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1661ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5057ms)
+		SetupLoadedEditorAssemblies (1350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (19ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (221ms)
-			ProcessInitializeOnLoadAttributes (3457ms)
-			ProcessInitializeOnLoadMethodAttributes (1295ms)
-			AfterProcessingInitializeOnLoad (46ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (871ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (40ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (47ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 9.95 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 7.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6402 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (13.8 MB). Loaded Objects now: 6831.
-Memory consumption went from 283.7 MB to 269.9 MB.
-Total: 12.491000 ms (FindLiveObjects: 0.649900 ms CreateObjectMapping: 0.648900 ms MarkObjects: 4.172900 ms  DeleteObjects: 7.017900 ms)
+Unloading 83 unused Assets / (14.0 MB). Loaded Objects now: 6830.
+Memory consumption went from 283.6 MB to 269.5 MB.
+Total: 10.590900 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.806300 ms MarkObjects: 4.200000 ms  DeleteObjects: 4.949600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,451 +182,5 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 13.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (13.8 MB). Loaded Objects now: 6831.
-Memory consumption went from 155.6 MB to 141.8 MB.
-Total: 12.458300 ms (FindLiveObjects: 0.690700 ms CreateObjectMapping: 0.676900 ms MarkObjects: 5.729300 ms  DeleteObjects: 5.360100 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 30473.785350 seconds.
-  path: Assets/UniGLTF/Tests/Objects/4x4_gray_import_as_normal_map.png
-  artifactKey: Guid(b5d17df8d14f2324692a7c69f24cf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniGLTF/Tests/Objects/4x4_gray_import_as_normal_map.png using Guid(b5d17df8d14f2324692a7c69f24cf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '54029e8c5a75db90f92d70e0078b6e97') in 0.115643 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_01.png
-  artifactKey: Guid(0028fcacafdd79e4c8eb00bd91078f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_01.png using Guid(0028fcacafdd79e4c8eb00bd91078f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd599999da3dc3482109f1eb2a155a407') in 0.059758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_02.png
-  artifactKey: Guid(d71d82cc478296f49adf1681b2121983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_02.png using Guid(d71d82cc478296f49adf1681b2121983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '84111cc7e90931c035d80fa5c1d12ab5') in 0.047846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UniGLTF/Tests/Objects/4x4_gray_import_as_srgb.png
-  artifactKey: Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniGLTF/Tests/Objects/4x4_gray_import_as_srgb.png using Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bbb9f796fa4a645a14d2466e2e251932') in 0.014353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.617275 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_05.png
-  artifactKey: Guid(dc91e2b65d8ec02409e0e231da40ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_05.png using Guid(dc91e2b65d8ec02409e0e231da40ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '97d9f1ed556b4f96aa6e0bc23fd8ef26') in 0.218122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_12.png
-  artifactKey: Guid(7f00252d3d271b54d9200086222b4ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_12.png using Guid(7f00252d3d271b54d9200086222b4ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '98ca65ca0067ca84bf799f81b200686a') in 0.306124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001584 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_07.png
-  artifactKey: Guid(51abb5bfc718f634d9e3035177470835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_07.png using Guid(51abb5bfc718f634d9e3035177470835) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '654537b01959fcf0d84524323b99a785') in 0.283809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_15.png
-  artifactKey: Guid(85726b30044c170499f677fbaea942d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_15.png using Guid(85726b30044c170499f677fbaea942d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1f7b04525f52bb3a682e8f9532b558ce') in 0.044099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_18.png
-  artifactKey: Guid(c4acf083d907da64ca9b3098cf7b583d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_18.png using Guid(c4acf083d907da64ca9b3098cf7b583d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1d4908c6172463bc621130d8057ce6a3') in 0.320238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_20.png
-  artifactKey: Guid(95b51c3e2a0ab244ba3923368400ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_20.png using Guid(95b51c3e2a0ab244ba3923368400ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '938494e437a49bc97535f404ce98f2d9') in 0.104828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_25.png
-  artifactKey: Guid(bfcc83e5416291242beb8e6c4e76b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_25.png using Guid(bfcc83e5416291242beb8e6c4e76b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f16c8fbadaed0df526f202a4e0a56934') in 0.215397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.004641 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_27.png
-  artifactKey: Guid(510e8f0dfbee488468284876fcba9770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_27.png using Guid(510e8f0dfbee488468284876fcba9770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '32d62442770052672967f41054ba4c5e') in 0.025573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_21.png
-  artifactKey: Guid(139d5368b1eba4b45ba640d09d9ca5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_21.png using Guid(139d5368b1eba4b45ba640d09d9ca5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e348a57b53bf470d9de71d5ee595f187') in 0.189015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_34.png
-  artifactKey: Guid(12ddec981ac46734fb33019bb2b7d43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_34.png using Guid(12ddec981ac46734fb33019bb2b7d43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ae6d9bb9d5599ecc084b54468cf03d2b') in 0.022589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_16.png
-  artifactKey: Guid(71571a17caecf1b45bb3d9bb63678bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_16.png using Guid(71571a17caecf1b45bb3d9bb63678bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '24ba0ccf55969a61fca30883617cfa0c') in 0.022945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_32.png
-  artifactKey: Guid(c63672b5366873e4baad4cceebb9945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_32.png using Guid(c63672b5366873e4baad4cceebb9945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0b5443776a9b95734612703a43073037') in 0.047689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.010032 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_26.png
-  artifactKey: Guid(5c17b1a55d622094b9f4d3e1f47e9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_26.png using Guid(5c17b1a55d622094b9f4d3e1f47e9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'dc5488d54885551e1eff6a2c290a9685') in 0.039150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_28.png
-  artifactKey: Guid(fa71dd0a3b2e82541a3e638408a07975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_28.png using Guid(fa71dd0a3b2e82541a3e638408a07975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7764eeda1c5029106285e30bc1e7f5b1') in 0.062284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_31.png
-  artifactKey: Guid(b6e39780e26e5244fa69688da5f763c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_31.png using Guid(b6e39780e26e5244fa69688da5f763c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '51b6c36c2ffdc032e301ac60da082a0e') in 0.022763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011952 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_36.png
-  artifactKey: Guid(29f9143c29f955a44b045f7e7a9bef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_36.png using Guid(29f9143c29f955a44b045f7e7a9bef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '55769058f43fef7ac6ec8be04024247b') in 0.028355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_35.png
-  artifactKey: Guid(57262c2fbf40bcb4d898975ac836588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_35.png using Guid(57262c2fbf40bcb4d898975ac836588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2e9576dec7c227b6835d06c2aeeafa9e') in 0.037310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/_30.png
-  artifactKey: Guid(4f300204d10508c4cba6d117d4c9e771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/_30.png using Guid(4f300204d10508c4cba6d117d4c9e771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '205cfdc502b3e7438d93380d055a5a50') in 0.041231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.769140 seconds.
-  path: Assets/lilToon/Editor/Resources/gui_box_inner_half_dark.png
-  artifactKey: Guid(a72199a4c9cc3714d8edfbc5d3b13823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Editor/Resources/gui_box_inner_half_dark.png using Guid(a72199a4c9cc3714d8edfbc5d3b13823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '41bb3082d1c048f9ea3b7394d63945ef') in 0.202772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.978455 seconds.
-  path: Assets/lilToon/Editor/Resources/gui_box_outer_light.png
-  artifactKey: Guid(16cc103a658d8404894e66dd8f35cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Editor/Resources/gui_box_outer_light.png using Guid(16cc103a658d8404894e66dd8f35cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8c7edd20116a645d836fbb8eb13318e6') in 0.031489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.734257 seconds.
-  path: Assets/lilToon/Editor/Resources/gui_custom_box_light.png
-  artifactKey: Guid(a1ed8756474bfd34f80fa22e6c43b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Editor/Resources/gui_custom_box_light.png using Guid(a1ed8756474bfd34f80fa22e6c43b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8d1bcf95cba57dc36de61103018faa2a') in 0.034458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.022040 seconds.
-  path: Assets/lilToon/Texture/lil_bayer_4x4.png
-  artifactKey: Guid(5bf614e5cd085334fb250d85ecf4add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_bayer_4x4.png using Guid(5bf614e5cd085334fb250d85ecf4add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '747cfc0380feed36b0848d1c5ac2e7ae') in 0.053673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.670379 seconds.
-  path: Assets/lilToon/Texture/lil_bayer_16x16.png
-  artifactKey: Guid(f6af462667a53734aa2bdb88cd28773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_bayer_16x16.png using Guid(f6af462667a53734aa2bdb88cd28773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1f34a7290fe130eaedd21ae9e2c65c22') in 0.016747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020131 seconds.
-  path: Assets/lilToon/Texture/lil_noise_1d.png
-  artifactKey: Guid(5e5f849189d66b1448d63883a5f9195a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_noise_1d.png using Guid(5e5f849189d66b1448d63883a5f9195a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5f1ac9075cc081bc2e573c3c5617fc3c') in 0.062018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.160534 seconds.
-  path: Assets/lilToon/Texture/lil_noise_fur_2.png
-  artifactKey: Guid(8a7dbcb2f4a32ec4297486403aee5f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_noise_fur_2.png using Guid(8a7dbcb2f4a32ec4297486403aee5f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '08261470f16a450b47fc5d133aff0557') in 0.029048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/lilToon/Texture/lil_shape_hex.png
-  artifactKey: Guid(cbd6b66929773a2418b39e21703893b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_shape_hex.png using Guid(cbd6b66929773a2418b39e21703893b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8faadc83f58790505f1e6cbded3911f9') in 0.060431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.560946 seconds.
-  path: Assets/lilToon/Texture/lil_tangent.png
-  artifactKey: Guid(8704ec8533a146d4daf20c45658e92ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_tangent.png using Guid(8704ec8533a146d4daf20c45658e92ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '42f12bd109a0546c67d17e5b8445e2d8') in 0.023705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/lilToon/Texture/lil_tangent_circular.png
-  artifactKey: Guid(aa232ebfdb3318845b4de050c61dc2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/lilToon/Texture/lil_tangent_circular.png using Guid(aa232ebfdb3318845b4de050c61dc2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bb5e93329f2c2f57fe5db422dfd38705') in 0.021912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.114770 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/MatcapWarp_01.png
-  artifactKey: Guid(583924858dcee9e4998de2c7770acc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/MatcapWarp_01.png using Guid(583924858dcee9e4998de2c7770acc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '64e816e50b3a8a3220f3dd059fb758c3') in 0.182029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.523024 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_00_Face_00_out.png
-  artifactKey: Guid(8f2d66d2875c6e347be4793627041063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_00_Face_00_out.png using Guid(8f2d66d2875c6e347be4793627041063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aaae8d8f43792ea67fd670f73bc97a92') in 0.231731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.598938 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_02.png
-  artifactKey: Guid(d8851bbefcf8cf148895843d35ef102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_02.png using Guid(d8851bbefcf8cf148895843d35ef102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bfe6d56f4ed65fc71731903e0de1b909') in 0.029945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_06.png
-  artifactKey: Guid(5389e76fb3b291b419fcaa931930178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_06.png using Guid(5389e76fb3b291b419fcaa931930178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'db2530c0a7a78769ebbf18dcba9d29f2') in 0.232849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_05.png
-  artifactKey: Guid(fd3dc0876ddf62942a9f14b39b977566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_05.png using Guid(fd3dc0876ddf62942a9f14b39b977566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '03c0ac2ac34bf6a0cb518244dfd5217c') in 0.015233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.554921 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_08.png
-  artifactKey: Guid(2052a288a0676a94c93d0bdd7985fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/N00_000_Hair_00_nml_08.png using Guid(2052a288a0676a94c93d0bdd7985fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '956677d8101a2a2c0121306dedbdadff') in 0.012655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/Shader_NoneBlack.png
-  artifactKey: Guid(aa806039fcdc4ca4597ef57e3e30f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/Shader_NoneBlack.png using Guid(aa806039fcdc4ca4597ef57e3e30f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c9818fdb395e7404cffc38301af0b928') in 0.174493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/05.Model/Jinwon_SkinVer.Textures/Thumbnail.png
-  artifactKey: Guid(15f9c368d94a2d7439723fd9b4b764f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Model/Jinwon_SkinVer.Textures/Thumbnail.png using Guid(15f9c368d94a2d7439723fd9b4b764f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '07582c5d16fc8af4897d3abb60efaa17') in 0.054134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 14.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (13.8 MB). Loaded Objects now: 6847.
-Memory consumption went from 159.6 MB to 145.8 MB.
-Total: 23.024100 ms (FindLiveObjects: 0.657500 ms CreateObjectMapping: 0.538100 ms MarkObjects: 12.115200 ms  DeleteObjects: 9.711600 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=10054 error=현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.

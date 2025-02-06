@@ -17,8 +17,7 @@ public class StartSceneMgr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isStart = true;
-        hasStarted = true;
+
         Application.targetFrameRate = 300;
         MenuBtn.onClick.AddListener(MenuBtnClick);
     }
@@ -26,28 +25,29 @@ public class StartSceneMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hasStarted == true && Input.GetMouseButtonDown(0))
+        if ((Input.GetKeyDown(KeyCode.Space)))
         {
-            hasStarted = true;
             SceneManager.LoadScene("02. Scene1");
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
     }
 
     void MenuBtnClick()
     {
-        isStart = false;
- 
         MenuPanel.gameObject.SetActive(!MenuPanel.activeSelf);
         if (MenuPanel.activeSelf)
         {
-            isStart = false; 
             CreditBtn.onClick.AddListener(CreditBtnClick);
             ExitBtn.onClick.AddListener(ExitBtnClick);
         }
         else
         {
-            isStart = false;
-            hasStarted = true;
+
         }
     }
 

@@ -36,12 +36,13 @@ public class CSVReader : MonoBehaviour
                 // 공백을 포함한 값을 그대로 두기 위한 처리
                 if (string.IsNullOrEmpty(value))
                 {
-                    entry[header[j]] = "";  // 값이 비어있으면 빈 문자열을 그대로 사용
+                    // 값이 비어있으면 빈 문자열을 그대로 사용
+                    entry[header[j]] = "";  
                 }
                 else
                 {
                     // 큰따옴표를 이스케이프 처리
-                    value = value.Replace("\"\"", "\""); // 이 부분에서 큰따옴표를 두 개로 처리
+                    value = value.Replace("\"\"", "\""); 
                     value = value.TrimStart(TRIM_CHARS).TrimEnd(TRIM_CHARS).Replace("\\", "");
                     object finalvalue = value;
                     int n;

@@ -59,6 +59,11 @@ public class ChatMgr : MonoBehaviour
         {
             DisplayNextSentence();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void DisplayNextSentence()
