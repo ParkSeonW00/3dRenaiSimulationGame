@@ -7,15 +7,21 @@
 
 
 ### 1.StartScene
-![image](https://github.com/user-attachments/assets/81ecb7c1-750d-4134-a1e7-f584d2e12721)
+![KakaoTalk_20250226_143036641](https://github.com/user-attachments/assets/9486d4ad-6b2b-495f-86b7-4ef9a92dfe99)
 
-### 2.ChatScene
+### 2.MemorySystem
+![KakaoTalk_20250226_142849201](https://github.com/user-attachments/assets/cf38717d-b911-4478-b872-949b649e6407)
+
+### 3.OptionScene
+![KakaoTalk_20250226_143049054](https://github.com/user-attachments/assets/7b0f1eb0-78de-40d9-b7cb-c15cbaee794e)
+
+### 4.ChatScene
 ![image](https://github.com/user-attachments/assets/53a46399-79e9-4705-b745-65c8198d3ba8)
 
-### 3.SelectScene
+### 5.SelectScene
 ![image](https://github.com/user-attachments/assets/62667f21-37e1-41f2-b332-96674f14f7ea)
 
-### 4.LikePoint
+### 6.LikePointSystem
 ![image](https://github.com/user-attachments/assets/3a89848a-e720-4222-b0c9-86f643a45956)
 
 ### 5.CreditScene
